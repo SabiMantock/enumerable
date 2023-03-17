@@ -83,6 +83,7 @@ To run the project, execute the following command:
 
 ```sh
   ruby enumerable.rb
+  ruby my_list.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,7 +116,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- N/A
+- Improving performance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
