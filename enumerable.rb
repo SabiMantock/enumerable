@@ -1,19 +1,17 @@
-module MyEnumerable
-  def all?(&block)
-    each { |list_item| return false unless yield(list_item) }
+module Enumerable
+  def all?
+    each { |list| return false unless yield(list) }
     true
   end
 
-
-def filter(&block)
-    result = []
-    each { |list_item| result << element if yield(list_item) }
-    result
+  def any?
+    each { |list| return true if yield(list) }
+    false
   end
 
-  def any?(&block)
-    each { |element| return true if yield(element) }
-    false
-  end
-
+  def filter
+    result = []
+    each { |list| result << element if yield(list) }
+    result
+  end
 end
