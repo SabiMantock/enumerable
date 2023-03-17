@@ -11,4 +11,9 @@ def filter(&block)
     result
   end
 
+  def any?(&block)
+    each { |element| return true if yield(element) }
+    false
+  end
+
 end
