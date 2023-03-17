@@ -1,4 +1,4 @@
-<a name="readme-top"><h1 align="center">Decode Morse Code</h1></a>
+<a name="readme-top"><h1 align="center">enumerable</h1></a>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -24,7 +24,7 @@
 
 # 📖 decode_morse_code <a name="about-project"></a>
 
-decode_morse_code is a simple ruby project that was created to translate the morse code.
+enumerable is a Ruby module that provides a set of methods that allow objects to be iterated and processed in various ways, such as sorting, finding, and grouping their elements.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,7 +34,7 @@ Ruby
 
 ### Key Features <a name="key-features"></a>
 
-- Decodes a Morse code message
+- Create your own Enumerable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,8 +65,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:SabiMantock/decode_morse_code.git
-  cd decode_morse_code
+  git clone git@github.com:SabiMantock/enumerable.git
+  cd enumerable
 ```
 
 ### Install
@@ -82,7 +82,8 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  ruby decode_morse.rb
+  ruby enumerable.rb
+  ruby my_list.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,7 +116,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- N/A
+- Improving performance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
